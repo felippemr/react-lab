@@ -8,7 +8,7 @@ class Item extends React.Component{
   }
   render() {
     return (
-      <li className='item'>{this._name}</li>
+      <p className='item'>{this._name}</p>
     )
   }
 }
@@ -23,7 +23,7 @@ class Cart extends React.Component{
         <ul>
         {
           this._items.map( function(item_info, index) {
-            return <Item item_info={item_info} key={index}/>
+            return <li><Item item_info={item_info} key={index}/></li>
           })
         }
         </ul>
