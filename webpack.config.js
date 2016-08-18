@@ -8,6 +8,7 @@ var config = {
   entry: {
     example_application: APP_DIR + '/example_application.jsx',
     hello_world: APP_DIR + '/hello_world.jsx',
+    cart: APP_DIR + '/cart.jsx',
   },
   output: {
     path: BUILD_DIR,
